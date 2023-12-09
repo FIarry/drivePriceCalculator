@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: orange;
+}
+
+.outer {
+    display: flex;
+    flex-direction: column;
+    /* Установите вертикальное расположение элементов. */
+    justify-content: center;
+    /* Горизонтальное выравнивание по центру */
+    align-items: center;
+    /* Вертикальное выравнивание по центру */
+    height: 100%;
+}
+
+.centered {
+    /* Создайте блок для центрирования элементов. */
+    text-align: center;
+}
+button:hover {
+    box-shadow: 5px 3px;
+}
+
+.title {
+    color: purple;
+}
